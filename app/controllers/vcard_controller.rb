@@ -1,0 +1,2 @@
+class VcardController < ApplicationController
+end
