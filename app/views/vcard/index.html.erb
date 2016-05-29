@@ -1,29 +1,16 @@
-Eric Fournier
-
 <div class="vcard">
-	<div class="button">
-		<div class="navbar">
-			<%= link_to image_tag("linked.png"), 'https://github.com/efournier92', { class: 'button' } %>
+	<div class="navbar_top">
+			<%= link_to 'About', '', { class: 'button_top' } %>
+			<%= link_to 'Projects', 'https://www.linkedin.com/in/efournier92', { class: 'button_top' } %>
+			<%= link_to 'Resume', 'https://twitter.com/e4nier92', { class: 'button_rightmost' } %>
 		</div>
-		<div class="button">
-			<%= link_to 'LinkedIn', 'https://www.linkedin.com/in/efournier92', { class: 'button' } %>
-		</div>
-		<div class="button">
-			<%= link_to 'Twitter', 'https://twitter.com/e4nier92', { class: 'button' } %>
-		</div>
+		<%= image_tag("Portrait.png", size: "200") %>
+		<div class="name">
+			Eric Fournier
+			</div>
+	<div class="navbar_bottom">
+		<%= link_to image_tag("Github.png"), 'https://github.com/efournier92', { class: 'button_bottom' } %>
+		<%= link_to image_tag("LinkedIn.png"),'https://www.linkedin.com/in/efournier92', { class: 'button_bottom' } %>
+		<%= link_to image_tag("Twitter.png"), 'https://twitter.com/e4nier92', { class: 'button_bottom' } %>
 	</div>
-
-	<%= image_tag("monogram.png", size: "80") %>
-	<div class="navbar">
-		<div class="button">
-			<%= link_to 'About', '', { class: 'button' } %>
-		</div>
-		<div class="button">
-			<%= link_to 'Projects', 'https://www.linkedin.com/in/efournier92', { class: 'button' } %>
-		</div>
-		<div class="button">
-			<%= link_to 'Resume', 'https://twitter.com/e4nier92', { class: 'button' } %>
-		</div>
-	</div>
-
 </div>
