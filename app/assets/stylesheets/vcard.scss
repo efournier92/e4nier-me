@@ -3,8 +3,9 @@
   src: url(/assets/timeburnerbold);
 }
 
-body {
-  font-family: "timeburnerbold";
+.body {
+	background: #989898;
+	font-family: "timeburnerbold";
 }
 
 .vcard {
@@ -31,14 +32,15 @@ body {
 }
 
 .navbar_top {
-	display:inline-block;
+	display: inline-block;
 	width: 100%;
 	white-space: nowrap;
-	border-bottom-style: solid;
-  border-bottom-width: 1px;
-	border-top: none;
-	border-right: none;
-	border-left: none;
+	// border-bottom-style: solid;
+  // border-bottom-width: 1px;
+  // border-bottom-color: #0f3246;
+	// border-top: none;
+	// border-right: none;
+	// border-left: none;
 }
 
 .navbar_bottom_main {
@@ -56,14 +58,14 @@ body {
 }
 
 .button_top {
-	color: #539dca;
+	color: #d1d1d1;
 	width: 33%;
 	height: 20%;
 	display: inline-block;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	border-right-style: solid;
-	border-right-color: white;
+	border-right-color: #539dca;
 	border-right-width: 1px;
 	border-top: none;
 	border-bottom: none;
@@ -86,7 +88,8 @@ body {
 }
 
 .button_rightmost {
-	color: #539dca;
+	color: #d1d1d1;
+	background-color: #313131;
 	width: 33%;
 	height: 20%;
 	display: inline-block;
