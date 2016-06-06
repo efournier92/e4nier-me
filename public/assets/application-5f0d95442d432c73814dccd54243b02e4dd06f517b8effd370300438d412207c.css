@@ -1,0 +1,160 @@
+/* line 1, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/pages.scss */
+.header {
+  font-size: 12px;
+  font-style: bold;
+  text-align: center;
+  white-space: pre-line;
+}
+
+/* line 8, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/pages.scss */
+.section_title {
+  font-size: 13px;
+  font-style: bold;
+}
+
+/* line 13, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/pages.scss */
+.section_subtitle {
+  font-size: 12px;
+  font-style: bold;
+}
+
+/* line 18, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/pages.scss */
+.bold {
+  font-size: 10px;
+  font-style: bold;
+}
+@font-face {
+  font-family: "timeburnerbold";
+  src: url(/assets/timeburnerbold);
+}
+/* line 6, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.body {
+  background: #989898;
+  font-family: "timeburnerbold";
+}
+
+/* line 11, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.vcard {
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 750px;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translate(-50%, -50%);
+}
+
+/* line 24, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.vcard img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 34, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.navbar_top {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* line 46, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.navbar_bottom_main {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 52, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.navbar_bottom {
+  display: inline-block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* line 60, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.button_top {
+  color: #ffffff;
+  height: 20%;
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border-right-style: solid;
+  border-right-color: #ffffff;
+  border-right-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* line 77, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.button_bottom {
+  width: 25%;
+  height: 20%;
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* line 88, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.button_rightmost {
+  color: #ffffff;
+  width: 33%;
+  height: 20%;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* line 100, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.button a {
+  border: none;
+}
+
+/* line 104, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.button_rightmost a {
+  border: none;
+}
+
+/* line 108, /Users/Misigno/Challenges/e4nier-me/app/assets/stylesheets/vcard.scss */
+.name {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: -25px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
