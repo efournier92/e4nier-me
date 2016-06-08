@@ -5,6 +5,7 @@
 
 .vcard {
 	color: white;
+	font-family: timeburnerbold;
 	background-color: black;
 	position: fixed;
 	top: 50%;
@@ -28,6 +29,7 @@
 
 .navbar_top {
 	display: inline-block;
+	font-family: timeburnerbold;
 	width: 100%;
 	white-space: nowrap;
 	// border-bottom-style: solid;
@@ -55,6 +57,7 @@
 .button_top {
 	color: #ffffff;	
 	height: 20%;
+	width: 33%;
 	display: inline-block;
 	padding-top: 4px;
 	padding-bottom: 3px;
