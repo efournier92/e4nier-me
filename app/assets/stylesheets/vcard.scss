@@ -49,13 +49,12 @@
 .navbar_bottom {
 	display: inline-block;
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+	bottom: 0;
 	white-space: nowrap;
 }
 
 .button_top {
-	color: #ffffff;	
+	color: #69c6ff;	
 	height: 20%;
 	width: 33%;
 	display: inline-block;
@@ -84,7 +83,7 @@
 }
 
 .button_rightmost {
-	color: #ffffff;
+	color: #69c6ff;
 	width: 33%;
 	height: 20%;
 	display: inline-block;
@@ -106,7 +105,8 @@
 .name {
 	color: #ffffff;
 	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 2px;
 	text-align: center;
-	font-size: 45px;
-	margin-bottom: -25px;
+	font-size: 50px;
 }
