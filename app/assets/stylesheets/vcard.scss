@@ -19,12 +19,8 @@
 
 .vcard img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin: auto;
+	padding: 20px 0px 20px 0px;
 }
 
 .navbar_top {
@@ -32,17 +28,11 @@
 	font-family: timeburnerbold;
 	width: 100%;
 	white-space: nowrap;
-	// border-bottom-style: solid;
-  // border-bottom-width: 1px;
-  // border-bottom-color: #0f3246;
-	// border-top: none;
-	// border-right: none;
-	// border-left: none;
 }
 
 .navbar_bottom_main {
-	width: 100%;
 	display: inline-block;
+	width: 100%;
 	text-align: center;
 }
 
@@ -59,12 +49,12 @@
 	width: 33%;
 	display: inline-block;
 	padding: 4px 0px 3px 0px;
-	border-right-style: solid;
-	border-right-color: #ffffff;
-	border-right-width: 1px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 30px;
+	border-right-style: solid;
+	border-right-color: #ffffff;
+	border-right-width: 1px;
 }
 
 .button_top.rightmost {
